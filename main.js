@@ -7,3 +7,5 @@ console.log(screens);
 const screenPrice  = prompt('Сколько будет стоить данная работа?', "1200");
 console.log(parseInt(screenPrice));
 
+const adaptive = confirm('Нужен ли адаптив на сайте?');
+console.log(adaptive);
